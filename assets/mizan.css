@@ -1,0 +1,127 @@
+/* Editorial identity. Colors and dimensions continue to come from the admin theme settings. */
+.theme-reference{scroll-behavior:smooth}
+.theme-reference .section{padding-block:clamp(72px,8vw,124px)}
+.theme-reference h1,.theme-reference h2,.theme-reference h3{letter-spacing:-.025em}
+.theme-reference .eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:11px;letter-spacing:.19em;text-transform:uppercase}
+.theme-reference .eyebrow:before{content:"";display:inline-block;width:27px;height:1px;background:currentColor}
+.theme-reference .text-link{font-size:13px;letter-spacing:.02em;text-decoration:none}
+.theme-reference .button{border-radius:min(var(--radius),4px);letter-spacing:.02em}
+.theme-reference .site-header,.theme-reference.home-page .site-header{border-bottom:1px solid var(--line)}
+.theme-reference.header-inline .header-inner,.theme-reference.home-page.header-inline .header-inner{min-height:99px;gap:clamp(18px,2vw,35px)}
+.theme-reference.header-inline .header-inner>.brand{margin:12px auto 12px 0}
+.theme-reference.header-inline .brand strong{font-size:clamp(26px,2.4vw,32px);line-height:1}
+.theme-reference.header-inline .brand small{letter-spacing:.23em}
+.theme-reference.header-inline .brand-mark{border:0;border-right:1px solid var(--line);padding-right:12px;width:54px;color:var(--action)}
+.theme-reference.header-inline .main-nav{gap:clamp(11px,1.15vw,20px)}
+.theme-reference.header-inline .main-nav a{font-size:11px;letter-spacing:.03em}
+.theme-reference .header-contact{border-radius:min(var(--radius),3px)}
+.theme-reference.home-page .hero{overflow:hidden;background:var(--hero-overlay)}
+.theme-reference.home-page .hero:before{content:"";position:absolute;inset:0 48% 0 0;pointer-events:none;background:repeating-linear-gradient(122deg,transparent 0 68px,color-mix(in srgb,var(--hero-text) 5%,transparent) 69px,transparent 70px);opacity:.44}
+.theme-reference.home-page .hero:after{content:"";position:absolute;left:0;bottom:0;width:52%;height:1px;background:color-mix(in srgb,var(--hero-text) 22%,transparent)}
+.theme-reference.home-page .hero-inner{justify-content:flex-start;text-align:left;position:relative;z-index:2;padding:85px 0}
+.theme-reference.home-page .hero-copy{max-width:min(620px,50%);padding:0 50px 0 0}
+.theme-reference .hero .eyebrow{color:var(--gold);font-size:12px;letter-spacing:.19em;margin-bottom:30px}
+.theme-reference .hero h1{font-size:clamp(47px,5.1vw,72px);line-height:1.07;letter-spacing:-.025em;font-weight:500;text-shadow:none;margin-bottom:30px;max-width:590px;text-wrap:balance}
+.theme-reference .hero-copy>p{font-size:16px;line-height:1.9;opacity:.85;margin:0 0 30px;max-width:530px}
+.theme-reference .hero-buttons{justify-content:flex-start;gap:13px}
+.theme-reference .hero .button-glass{border-color:color-mix(in srgb,var(--hero-text) 45%,transparent)}
+.theme-reference .hero-copy .hero-note{margin:37px 0 0;max-width:470px;font-size:11px;letter-spacing:.05em;border-top:1px solid color-mix(in srgb,var(--hero-text) 28%,transparent);padding-top:19px}
+.theme-reference .hero-visual{position:absolute;right:0;top:0;width:48%;height:100%;overflow:hidden;z-index:1;background:var(--hero-overlay)}
+.theme-reference .hero-visual .hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:72% 47%;filter:saturate(.75) contrast(1.03);opacity:1;z-index:0}
+.theme-reference.home-page .hero-visual .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,var(--hero-overlay),transparent 80%);opacity:var(--hero-opacity);z-index:1}
+.theme-reference .hero-visual:before{content:"";position:absolute;inset:24px 24px auto auto;width:70px;height:70px;border-top:1px solid var(--gold);border-right:1px solid var(--gold);z-index:2;opacity:.8}
+.theme-reference .hero-visual-line{position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--gold);z-index:2}
+.theme-reference .values-strip{padding:0;background:var(--surface)}
+.theme-reference .values-grid{gap:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+.theme-reference .value-item{display:block;min-width:0;padding:32px 25px 32px 0;border-right:1px solid var(--line);margin-right:25px}
+.theme-reference .value-item:last-child{border:0;margin:0}
+.theme-reference .value-icon{width:auto;height:auto;display:inline-flex;background:transparent;color:var(--action);margin:0 0 12px}
+.theme-reference .value-icon .icon{width:24px;height:24px}
+.theme-reference .value-item h2{font-family:var(--sans);font-size:13px;letter-spacing:.02em;margin:0 0 7px}
+.theme-reference .value-item p{font-size:12px;line-height:1.7}
+.theme-reference .introduction{background:var(--background)}
+.theme-reference .editorial-split{grid-template-columns:.95fr 1.05fr;gap:clamp(50px,7vw,115px)}
+.theme-reference .editorial-copy h2{font-size:clamp(38px,4.1vw,57px);font-weight:500;line-height:1.11;margin:23px 0 27px;text-wrap:balance}
+.theme-reference .editorial-copy .intro-text{border-left:1px solid var(--gold);padding-left:23px}
+.theme-reference .editorial-copy .intro-text p{font-size:15px;line-height:1.9}
+.theme-reference .editorial-visual{position:relative}
+.theme-reference .editorial-visual:before{content:"";position:absolute;inset:-16px 16px 16px -16px;border:1px solid var(--line);pointer-events:none}
+.theme-reference .editorial-visual>img{height:clamp(390px,39vw,530px);border-radius:0;position:relative}
+.theme-reference .editorial-visual figcaption{border:0;border-left:3px solid var(--gold);border-radius:0;right:auto;max-width:80%;bottom:-20px;left:24px;box-shadow:0 15px 35px #00000012}
+.theme-reference .approach-section{position:relative;overflow:hidden;background:var(--dark-bg);padding-block:clamp(78px,8vw,118px)}
+.theme-reference .approach-section:before{content:"";position:absolute;right:-120px;top:-180px;width:520px;height:520px;border:1px solid color-mix(in srgb,var(--dark-text) 12%,transparent);border-radius:50%;box-shadow:0 0 0 58px color-mix(in srgb,var(--dark-text) 2%,transparent),0 0 0 116px color-mix(in srgb,var(--dark-text) 2%,transparent);pointer-events:none}
+.theme-reference .approach-visual>img{height:clamp(350px,34vw,465px)}
+.theme-reference .approach-section .editorial-copy .intro-text{border-color:var(--gold)}
+.theme-reference .approach-section .editorial-copy p{opacity:.85}
+.theme-reference .office-section{padding-block:clamp(65px,7vw,100px)}
+.theme-reference .office-panel{border-radius:0;border-top:3px solid var(--gold)}
+.theme-reference .office-panel-copy h2{font-size:clamp(30px,3vw,42px)}
+.theme-reference .practices-section{background:var(--surface)}
+.theme-reference .practices-section .section-heading.centered{text-align:left;max-width:900px;margin:0 0 47px}
+.theme-reference .practices-section .section-heading.centered h2{font-size:clamp(38px,4vw,55px);line-height:1.1;margin:19px 0;text-wrap:balance}
+.theme-reference .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 60px;border-top:1px solid var(--line)}
+.theme-reference .service-card{border:0;border-bottom:1px solid var(--line);background:transparent;border-radius:0;display:block;position:relative;transition:background .2s}
+.theme-reference .service-card:hover{transform:none;box-shadow:none;background:color-mix(in srgb,var(--action) 4%,transparent)}
+.theme-reference .service-image{display:none}
+.theme-reference .service-body{padding:33px 42px 30px 53px;min-height:190px}
+.theme-reference .service-number{left:0;right:auto;top:37px;color:var(--action);opacity:1;font-size:12px;font-weight:700}
+.theme-reference .service-body h3{font-size:clamp(24px,2.3vw,31px);line-height:1.15;font-weight:500;margin:0 0 10px}
+.theme-reference .service-body h3 a:hover{color:var(--action)}
+.theme-reference .service-body p{font-size:13px;line-height:1.75;margin:0 0 13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.theme-reference .service-body .text-link{font-size:11px}
+.theme-reference .articles-section{background:var(--background);border:0}
+.theme-reference .articles-section .section-heading h2{font-size:clamp(38px,4vw,55px);line-height:1.1;margin:18px 0}
+.theme-reference .journal-grid{grid-template-columns:1.05fr 1fr;gap:clamp(35px,6vw,90px)}
+.theme-reference .journal-feature .article-image,.theme-reference .journal-feature .article-image img{border-radius:0}
+.theme-reference .journal-feature .article-image img{height:clamp(270px,28vw,395px);filter:saturate(.7)}
+.theme-reference .journal-feature h3{font-size:clamp(25px,2.4vw,34px);font-weight:500;line-height:1.2}
+.theme-reference .journal-list{border-top:1px solid var(--line)}
+.theme-reference .journal-row{align-items:center;padding:22px 0;margin:0;gap:20px}
+.theme-reference .journal-row h3{font-size:clamp(17px,1.5vw,21px);font-weight:500;line-height:1.35}
+.theme-reference .journal-thumb{width:105px;height:84px;flex-basis:105px;border-radius:0}
+.theme-reference .faq-section{background:var(--surface);border-top:1px solid var(--line)}
+.theme-reference .faq-grid>div:first-child h2{font-size:clamp(37px,3.7vw,51px);line-height:1.12}
+.theme-reference .contact-band{background:linear-gradient(color-mix(in srgb,var(--dark-bg) 91%,transparent),color-mix(in srgb,var(--dark-bg) 91%,transparent)),var(--band-image) center/cover;border-top:3px solid var(--gold)}
+.theme-reference .page-heading{padding:clamp(45px,5vw,70px) 0 clamp(55px,6vw,85px);background:var(--background)}
+.theme-reference .page-heading h1{font-size:clamp(38px,4.2vw,60px);line-height:1.08;font-weight:500}
+.theme-reference .site-footer{position:relative;border-top:3px solid var(--gold);padding-top:clamp(60px,7vw,90px)}
+.theme-reference .site-footer:before{content:"";position:absolute;top:0;right:0;width:28%;height:100%;pointer-events:none;background:repeating-linear-gradient(122deg,transparent 0 69px,color-mix(in srgb,var(--footer-text) 4%,transparent) 70px,transparent 71px)}
+.theme-reference .footer-grid{position:relative;gap:clamp(28px,4vw,60px)}
+.theme-reference .footer-grid h3{letter-spacing:.13em;text-transform:uppercase}
+.theme-reference .footer-bottom{position:relative}
+@media(min-width:1300px){.theme-reference.header-inline .header-contact{display:inline-flex}}
+@media(max-width:1100px){.theme-reference.header-inline .brand strong{font-size:25px}.theme-reference.header-inline .main-nav{gap:10px}.theme-reference .hero h1{font-size:clamp(43px,5vw,60px)}}
+@media(max-width:1024px){.theme-reference.header-inline .header-inner,.theme-reference.home-page.header-inline .header-inner{min-height:80px}.theme-reference .hero:before{inset:0 44% 0 0}.theme-reference.home-page .hero-copy{max-width:56%;padding-right:30px}.theme-reference .hero-visual{width:44%}.theme-reference .service-grid{gap:0 35px}}
+@media(max-width:700px){
+ .theme-reference .section{padding-block:64px}
+ .theme-reference.header-inline .header-inner,.theme-reference.home-page.header-inline .header-inner{min-height:72px}
+ .theme-reference.header-inline .brand strong{font-size:26px}
+ .theme-reference.home-page .hero{display:flex;flex-direction:column}
+ .theme-reference.home-page .hero:before{inset:0}
+ .theme-reference.home-page .hero-inner{min-height:0;height:auto;padding:70px 0 58px}
+ .theme-reference.home-page .hero-copy{max-width:100%;padding:0}
+ .theme-reference .hero h1{font-size:clamp(42px,10vw,59px);line-height:1.09;margin:22px 0}
+ .theme-reference .hero h1 br{display:block}
+ .theme-reference .hero-copy>p{font-size:15px;line-height:1.75}
+ .theme-reference .hero-copy .hero-note{margin-top:30px}
+ .theme-reference .hero-visual{position:relative;width:100%;height:270px;flex:0 0 270px}
+ .theme-reference .hero-visual .hero-image{object-position:74% 48%}
+ .theme-reference .hero-visual-line{width:100%;height:3px;bottom:auto}
+ .theme-reference .values-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .theme-reference .value-item{margin:0;padding:25px 14px 25px 0;border-bottom:1px solid var(--line)}
+ .theme-reference .value-item:nth-child(2n){padding-left:15px;border-right:0}
+ .theme-reference .value-item:nth-last-child(-n+2){border-bottom:0}
+ .theme-reference .editorial-split,.theme-reference .reversed{grid-template-columns:1fr;gap:45px}
+ .theme-reference .editorial-copy h2{font-size:clamp(35px,8vw,47px)}
+ .theme-reference .editorial-visual>img{height:340px}
+ .theme-reference .approach-section .editorial-copy{order:-1}
+ .theme-reference .practices-section .section-heading.centered h2,.theme-reference .articles-section .section-heading h2{font-size:clamp(35px,8vw,47px)}
+ .theme-reference .service-grid{grid-template-columns:1fr}
+ .theme-reference .service-body{min-height:0;padding:27px 14px 27px 43px}
+ .theme-reference .service-number{top:31px}
+ .theme-reference .service-body h3{font-size:25px}
+ .theme-reference .journal-grid{grid-template-columns:1fr;gap:32px}
+ .theme-reference .journal-feature .article-image img{height:280px}
+ .theme-reference .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:420px){.theme-reference .hero-buttons{align-items:stretch}.theme-reference .hero-buttons .button{justify-content:center}.theme-reference .values-grid{grid-template-columns:1fr}.theme-reference .value-item,.theme-reference .value-item:nth-child(2n){display:flex;align-items:start;gap:13px;border-right:0;border-bottom:1px solid var(--line);padding:19px 0}.theme-reference .value-item:last-child{border:0}.theme-reference .value-icon{margin:0}.theme-reference .hero-visual{height:230px;flex-basis:230px}}

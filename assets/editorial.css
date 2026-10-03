@@ -1,0 +1,175 @@
+/* Calm public pages: factual headings, neutral surfaces and consistent reading rhythm. */
+.theme-reference{background:var(--surface);background-image:none}
+.theme-reference *{letter-spacing:0!important}
+.theme-reference .container{width:min(1180px,calc(100% - 64px))}
+.theme-reference h2{font-size:30px;line-height:1.35;font-weight:600}
+.theme-reference h3{font-size:20px;line-height:1.45}
+.theme-reference .eyebrow{font-size:12px;line-height:1.5;text-transform:none;margin-bottom:12px}
+.theme-reference .eyebrow:before{display:none}
+.theme-reference .section{padding:64px 0}
+.theme-reference .site-header,.theme-reference.juris-home.home-page .site-header{position:sticky;top:0;background:var(--header-bg);border-bottom:1px solid var(--line);box-shadow:none}
+.theme-reference.header-inline .header-inner,.theme-reference.juris-home.home-page.header-inline .header-inner{min-height:80px;gap:24px}
+.theme-reference .site-header .brand strong{font-size:26px}
+.theme-reference .brand-mark{border-color:var(--line);color:var(--action)}
+.theme-reference .site-header .brand small{font-size:9px}
+.theme-reference.header-inline .main-nav>.nav-item>a,.theme-reference.juris-home.header-inline .main-nav>.nav-item>a{font-size:14px;line-height:1.5;font-weight:500;padding:16px 0}
+.theme-reference .main-nav a:after{display:none!important}
+.theme-reference .main-nav a[aria-current=page]{text-decoration:underline;text-underline-offset:8px;text-decoration-color:var(--action)}
+.theme-reference .header-actions .header-payment,.theme-reference.juris-home .header-actions .header-payment{display:none}
+.theme-reference .header-actions{gap:8px}
+.theme-reference .header-actions .icon-button{width:44px;height:44px}
+.theme-reference .button{min-height:46px;font-size:14px;padding:11px 20px;gap:10px;border-radius:min(var(--radius),8px);box-shadow:none}
+.theme-reference .text-link{min-height:44px;font-size:14px;gap:10px;align-items:center}
+.theme-reference .text-link:hover{text-decoration:underline;text-underline-offset:4px}
+
+.theme-reference.juris-home .juris-hero{min-height:var(--hero-height);height:auto;max-height:none}
+.theme-reference.juris-home .juris-hero-media img{transform:none;transition:none;object-position:center 45%}
+.theme-reference.juris-home .juris-hero-shade{background:var(--hero-overlay);opacity:var(--hero-opacity)}
+.theme-reference.juris-home .juris-hero-content{display:block;max-width:1180px;padding:68px 0;align-self:center;text-align:left}
+.theme-reference.juris-home .juris-hero-copy{max-width:620px}
+.theme-reference.juris-home .juris-hero-copy>*{animation:none;opacity:1;transform:none}
+.theme-reference.juris-home .juris-hero .eyebrow{color:var(--hero-text);font-size:14px;font-weight:400;text-shadow:0 1px 3px #000}
+.theme-reference.juris-home .juris-hero h1{font-size:48px;line-height:1.2;font-weight:600;margin:14px 0 20px;max-width:620px;text-shadow:0 1px 4px #0009}
+.theme-reference.juris-home .juris-hero p{font-size:17px;line-height:1.8;margin:0 0 28px;max-width:510px;text-shadow:0 1px 3px #000}
+.theme-reference.juris-home .juris-hero-actions{gap:24px}
+.theme-reference.juris-home .juris-hero-actions .button{min-width:0;transform:none;box-shadow:none}
+.theme-reference.juris-home .juris-hero-actions .button-glass{min-height:46px;background:transparent;color:var(--hero-text);border:0;padding:11px 0;text-decoration:underline;text-underline-offset:5px}
+.theme-reference.juris-home .juris-hero-actions .button-glass:hover{background:transparent;color:var(--hero-text)}
+
+.theme-reference .home-lawyer-section{padding:54px 0;background:var(--surface)}
+.theme-reference .home-lawyer-inner{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px}
+.theme-reference .home-lawyer-heading h2,.theme-reference .home-consultation-heading h2,.theme-reference .home-map-heading h2{font-size:30px;line-height:1.35;margin:0 0 16px}
+.theme-reference .home-lawyer-heading p{font-size:16px;line-height:1.8;margin:0;max-width:34ch}
+.theme-reference .lawyer-tile{grid-template-columns:150px minmax(0,1fr);min-height:230px;background:var(--surface);border:1px solid var(--line);box-shadow:none;border-radius:4px}
+.theme-reference .lawyer-tile:hover{transform:none;box-shadow:none;border-color:var(--action)}
+.theme-reference .lawyer-tile-copy{padding:24px 28px}
+.theme-reference .lawyer-tile-copy strong{font-size:24px;line-height:1.4;margin:6px 0 10px}
+.theme-reference .lawyer-tile-copy>span:not(.lawyer-tile-link){font-size:15px;line-height:1.75}
+.theme-reference .lawyer-tile-copy .lawyer-tile-link{background:transparent;color:var(--action);padding:0;min-height:44px;margin-top:12px;font-size:14px}
+.theme-reference .home-consultation{padding:64px 0;background:var(--surface)}
+.theme-reference .home-consultation-heading p,.theme-reference .home-consultation-steps p{font-size:15px;line-height:1.8}
+.theme-reference .home-consultation-steps li{grid-template-columns:36px minmax(0,1fr);gap:18px;padding:22px 0}
+.theme-reference .home-consultation-steps li:hover{padding-left:0}
+.theme-reference .home-consultation-steps h3{font-size:19px;margin:0 0 6px}
+
+.theme-reference.juris-home .juris-practices{background:var(--background);padding:64px 0}
+.theme-reference.juris-home .juris-section-heading{max-width:none;text-align:left;margin-bottom:28px}
+.theme-reference.juris-home .juris-section-heading h2{font-size:30px;line-height:1.35;margin:0 0 14px}
+.theme-reference.juris-home .juris-section-heading p{font-size:15px;line-height:1.8;max-width:75ch}
+.theme-reference.juris-home .juris-practices .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px;border-top:1px solid var(--line)}
+.theme-reference.juris-home .juris-practices .service-card,.theme-reference.juris-home .juris-practices .service-card:hover{display:block;padding:26px 0;background:transparent;color:var(--ink);border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;transform:none}
+.theme-reference.juris-home .juris-practices .service-image{display:none}
+.theme-reference .service-number{display:none}
+.theme-reference.juris-home .juris-practices .service-body{padding:0;min-height:0}
+.theme-reference.juris-home .juris-practices .service-body h3,.theme-reference.juris-home .juris-practices .service-body h3 a,.theme-reference.juris-home .juris-practices .service-card:hover .service-body h3 a{font-size:21px;font-weight:600;line-height:1.4;margin:0 0 8px;color:var(--ink)}
+.theme-reference.juris-home .juris-practices .service-body p,.theme-reference.juris-home .juris-practices .service-card:hover .service-body p{display:block;font-size:15px;line-height:1.8;color:var(--muted);min-height:0;margin:0 0 12px}
+.theme-reference.juris-home .juris-practices .service-body .text-link,.theme-reference.juris-home .juris-practices .service-card:hover .text-link{color:var(--action);font-size:14px}
+.theme-reference.juris-home .juris-practices .section-tail{margin-top:24px}
+.theme-reference .section-heading h2{font-size:30px;line-height:1.35}
+.theme-reference .section-heading p{font-size:16px;line-height:1.8;max-width:65ch}
+.theme-reference .section:has(>.container>.archive-lead){padding:36px 0 0}
+.theme-reference .practice-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px;border-top:1px solid var(--line)}
+.theme-reference .practice-directory .service-card,.theme-reference .practice-directory .service-card:hover{padding:26px 0;background:transparent;color:var(--ink);border:0;border-bottom:1px solid var(--line);border-radius:0;box-shadow:none;transform:none}
+.theme-reference .practice-directory .service-image{display:none}
+.theme-reference .practice-directory .service-body{padding:0;min-height:0}
+.theme-reference .practice-directory .service-body h3{font-size:21px;line-height:1.4;margin:0 0 8px}
+.theme-reference .practice-directory .service-body h3 a{color:var(--ink)}
+.theme-reference .practice-directory .service-body p{display:block;overflow:visible;font-size:15px;line-height:1.8;min-height:0;margin:0 0 12px;color:var(--muted)}
+.theme-reference .practice-directory .service-body .text-link{color:var(--action);font-size:14px}
+.theme-reference .hub-title,.theme-reference .list-title{font-size:36px;line-height:1.3;text-align:left}
+.theme-reference .hub-text{text-align:left;max-width:74ch;margin:0 0 32px}
+.theme-reference .hub-card{padding:28px;align-items:flex-start;text-align:left;gap:12px}
+.theme-reference .hub-card:hover,.theme-reference .hub-card:focus-visible{transform:none;box-shadow:none}
+.theme-reference .hub-card:focus-visible{outline:3px solid var(--action);outline-offset:3px}
+.theme-reference .hub-count{position:static;color:var(--muted);font-size:13px}
+.theme-reference .hub-icon{width:42px;height:42px;border-radius:4px;box-shadow:none}
+.theme-reference .hub-card:hover .hub-icon{transform:none}
+.theme-reference .post-card h3{font-size:24px;line-height:1.4}
+.theme-reference .post-card-compact h3{font-size:17px}
+.theme-reference .post-card:hover .post-card-img img{transform:none}
+.theme-reference .list-count{color:var(--muted)}
+.theme-reference .journal-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
+.theme-reference .article-card h3,.theme-reference .journal-feature h3{font-size:24px;line-height:1.4}
+.theme-reference .article-image img{height:auto;aspect-ratio:1.9;object-fit:cover}
+.theme-reference .article-content>p{font-size:15px;line-height:1.8}
+.theme-reference .journal-row{padding:18px 0;gap:16px}
+.theme-reference .journal-row h3{font-size:18px;line-height:1.45}
+.theme-reference .journal-author,.theme-reference .journal-row time{font-size:12px}
+.theme-reference .faq-section{background:var(--background)}
+.theme-reference .faq-list summary{font-size:16px;line-height:1.6;min-height:52px;padding:20px 0}
+.theme-reference .faq-list details>div{font-size:16px;line-height:1.8}
+.theme-reference .faq-number{display:none}
+.theme-reference .faq-plus{flex:0 0 24px}
+
+.theme-reference .home-map-section{padding:64px 0;background:var(--surface);color:var(--ink);border-top:1px solid var(--line)}
+.theme-reference .home-map-heading h2,.theme-reference .home-map-heading address,.theme-reference .home-map-actions .text-link{color:var(--ink)}
+.theme-reference .home-map-heading .eyebrow{color:var(--action)}
+.theme-reference .home-map-heading address{font-size:16px;margin-top:16px}
+.theme-reference .home-map-frame{height:290px;border:1px solid var(--line);border-radius:4px;box-shadow:none;background:var(--background)}
+.theme-reference .map-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;gap:16px}
+.theme-reference .map-placeholder-icon{color:var(--action)}
+.theme-reference .map-placeholder-icon .icon{width:32px;height:32px}
+.theme-reference .map-placeholder p{font-size:14px;line-height:1.75;max-width:46ch;margin:0}
+.theme-reference .home-map-disclosure{font-size:12px;color:var(--muted);opacity:1}
+.theme-reference .home-map-actions .button-outline{border-color:var(--action);color:var(--action)}
+
+.theme-reference .page-heading{padding:28px 0 40px;background:var(--background);text-align:left}
+.theme-reference .page-heading .breadcrumbs{justify-content:flex-start;font-size:13px;line-height:1.6;margin-bottom:24px}
+.theme-reference .page-heading>.container>.eyebrow,.theme-reference .heading-watermark,.theme-reference .page-heading h1:after,.theme-reference .page-heading:after{display:none}
+.theme-reference .page-heading h1{font-size:36px;line-height:1.3;text-align:left;margin:0}
+.theme-reference .prose{font-size:17px;line-height:1.85}
+.theme-reference .prose p{max-width:74ch}
+.theme-reference .prose h2{font-size:27px;line-height:1.4}
+.theme-reference .prose h3{font-size:22px;line-height:1.45}
+.theme-reference .prose a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.theme-reference .detail-main,.theme-reference .post-main{min-width:0}
+.theme-reference .post-main .prose p{text-align:left;hyphens:none}
+.theme-reference .post-title{font-size:36px;line-height:1.3}
+.theme-reference .post-header{text-align:left}
+.theme-reference .post-meta{justify-content:flex-start;gap:10px;font-size:13px}
+.theme-reference .post-meta>*{padding:0 10px 0 0}
+.theme-reference .post-toc .toc-title{font-size:13px}
+.theme-reference .post-cover,.theme-reference .detail-cover{height:auto;max-height:440px;aspect-ratio:1.9;object-fit:cover}
+.theme-reference .post-lead{font-size:17px;line-height:1.8}
+.theme-reference .post-recent{border:0;border-top:1px solid var(--line);padding:32px 0;border-radius:0}
+.theme-reference .contact-form-card{border:0;border-radius:0;background:var(--surface);box-shadow:none;padding:0}
+.theme-reference .contact-info h2,.theme-reference .contact-form-card h2{font-size:28px}
+.theme-reference .contact-form label{font-size:15px}
+.theme-reference .contact-form input,.theme-reference .contact-form select,.theme-reference .contact-form textarea{font-size:16px}
+.theme-reference .form-privacy{font-size:14px;line-height:1.7;margin:12px 0}
+.theme-reference .form-privacy a{text-decoration:underline;text-underline-offset:3px}
+.theme-reference .form-note{font-size:13px;line-height:1.8;margin-top:16px}
+.theme-reference .sidebar-contact{display:none}
+.theme-reference .profile-jump-links a{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:8px 0;margin-right:16px;font-size:14px}
+.theme-reference .lawyer-profile-copy h1{font-size:40px;line-height:1.25}
+.theme-reference .lawyer-profile-lead{font-size:17px;line-height:1.8}
+.theme-reference .lawyer-publications .article-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+.theme-reference .site-footer{background:var(--footer-bg);color:var(--footer-text);border-top:1px solid var(--line);padding:48px 0 0}
+.theme-reference .site-footer:before{display:none}
+.theme-reference .footer-grid .brand strong{font-size:25px}
+.theme-reference .footer-grid h3{font-size:15px;opacity:1;text-transform:none}
+.theme-reference .footer-grid a,.theme-reference .footer-grid p,.theme-reference .footer-grid li{font-size:14px;line-height:1.8;opacity:1}
+.theme-reference .footer-grid li a{padding:5px 0}
+.theme-reference .footer-bottom{background:var(--footer-bg);border-top:1px solid var(--line);padding:20px 0}
+.theme-reference .footer-bottom-inner{font-size:13px}
+.theme-reference .footer-payment{font-size:13px;border:0;box-shadow:none;padding:0}
+.theme-reference .floating-contact{display:none}
+.theme-reference .reveal,.theme-reference .reveal.is-visible{opacity:1;transform:none;transition:none}
+
+@media screen and (max-width:1024px){
+  .theme-reference .home-lawyer-inner,.theme-reference .home-map-inner{grid-template-columns:minmax(0,1fr);gap:28px}
+  .theme-reference .home-consultation-inner{grid-template-columns:minmax(0,1fr);gap:28px}
+  .theme-reference .lawyer-publications .article-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .theme-reference .home-lawyer-heading p{max-width:none}
+}
+@media screen and (max-width:700px){
+  .theme-reference .journal-grid,.theme-reference .lawyer-publications .article-grid,.theme-reference .practice-directory{grid-template-columns:minmax(0,1fr)}
+  .theme-reference .practice-directory .service-body h3{font-size:21px}
+  .theme-reference .post-card h3{font-size:21px}
+  .theme-reference .post-card-compact h3{font-size:17px}
+}
+@media print{
+  .theme-reference .juris-hero,.theme-reference .home-map-section{display:none}
+  .theme-reference .form-privacy{color:#000}
+}

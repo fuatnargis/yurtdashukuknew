@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="88" viewBox="0 0 80 88" role="img" aria-labelledby="title desc">
+  <title id="title">Yurtdas Hukuk kurumsal simgesi</title>
+  <desc id="desc">Y harfi ve dengeli terazi bicimlerinden olusan hukuk burosu amblemi.</desc>
+  <g fill="none" stroke="#947447" stroke-width="2" stroke-linecap="square">
+    <path d="M12 22H68M16 23V45M64 23V45M16 28L5 47H27L16 28ZM64 28L53 47H75L64 28Z"/>
+    <path d="M5 47Q16 59 27 47M53 47Q64 59 75 47"/>
+  </g>
+  <path fill="#204a43" d="M22 9H35V12H31L40 32L49 12H45V9H59V12H55L44 37V70H51V74H29V70H36V37L25 12H22Z"/>
+  <path fill="#204a43" d="M20 80H60V83H20Z"/>
+</svg>

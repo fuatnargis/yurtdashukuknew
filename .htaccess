@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^(?:storage|app|tools|tests|template-original|node_modules)(?:/|$) - [F,L,NC]
+RewriteRule (^|/)\. - [F,L]
+RewriteRule \.(?:sqlite|db|log|ini|ps1|md|json|lock|bak)$ - [F,L,NC]
+RewriteRule ^(?:robots\.txt|sitemap\.xml)$ index.php [L]
+RewriteRule \.html$ index.php [L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ index.php [L,QSA]

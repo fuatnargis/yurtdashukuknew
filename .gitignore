@@ -1,0 +1,11 @@
+/storage/*
+!/storage/.htaccess
+/assets/uploads/*
+!/assets/uploads/.htaccess
+/node_modules/
+/.vercel/
+/.env*
+!/.env.example
+/*.zip
+/tests/artifacts/
+/template-contact-sheet.jpg

@@ -1,0 +1,148 @@
+/* Final shared controls: identity is fixed; theme and content stay editable. */
+.theme-reference{font-family:var(--sans);font-size:var(--body-font-size);background:var(--background)}
+.theme-reference p,.theme-reference li,.theme-reference a{overflow-wrap:anywhere}
+.theme-reference .prose,.theme-reference .post-main .prose{font-size:calc(var(--body-font-size) + 1px)}
+.theme-reference .prose p,.theme-reference .prose li{color:var(--muted)}
+.theme-reference .section,.theme-reference.juris-home .juris-about,.theme-reference.juris-home .home-lawyer-section,.theme-reference .home-consultation,.theme-reference .home-map-section,.theme-reference.juris-home .juris-practices,.theme-reference.juris-home .articles-section,.theme-reference.juris-home .faq-section{padding-top:var(--section-spacing);padding-bottom:var(--section-spacing)}
+.theme-reference .section-heading h2,.theme-reference.juris-home .juris-section-heading h2,.theme-reference.juris-home .home-lawyer-heading h2,.theme-reference .home-consultation-heading h2,.theme-reference.juris-home .juris-about h2,.theme-reference.juris-home .faq-grid h2,.theme-reference .home-map-heading h2{font-size:var(--section-heading-size)}
+.theme-reference.juris-home .juris-hero h1{font-size:var(--hero-title-size)}
+.theme-reference.juris-home .juris-hero p,.theme-reference .home-lawyer-heading p{font-size:var(--body-font-size)}
+.theme-reference.juris-home .juris-about .intro-text,.theme-reference .contact-info>p{font-size:var(--body-font-size)}
+.theme-reference .home-lawyer-heading>.eyebrow{display:block}
+.theme-reference.juris-home .hero-note{font-size:13px;margin:20px 0 0;line-height:1.7}
+.theme-reference [data-home-section] h2,.theme-reference [data-home-section] h3{overflow-wrap:anywhere}
+.theme-reference[data-breadcrumbs="0"] .breadcrumbs,.theme-reference[data-breadcrumbs="0"] .crumb,.theme-reference[data-reading-progress="0"] .reading-progress,.theme-reference[data-back-top="0"] .back-top,.theme-reference[data-section-labels="0"] .eyebrow{display:none}
+.theme-reference[data-section-labels="1"] .eyebrow{display:block}
+.theme-reference .article-grid>.article-card{display:flex;flex-direction:column;min-width:0}
+.theme-reference .article-grid>.article-card .article-content{display:flex;flex-direction:column;flex:1}
+.theme-reference .article-grid>.article-card .article-content>.text-link{margin-top:auto;padding-top:14px;align-self:flex-start}
+.theme-reference .service-card,.theme-reference .hub-card,.theme-reference .home-map-frame,.theme-reference .article-image,.theme-reference .juris-about-visual img,.theme-reference .lawyer-tile-photo{border-radius:min(var(--radius),8px)}
+.theme-reference .site-footer{background:var(--footer-bg);color:var(--footer-text)}
+.theme-reference .site-footer .footer-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.theme-reference .site-footer .footer-grid h3,.theme-reference .site-footer .footer-grid a,.theme-reference .site-footer .footer-grid p,.theme-reference .site-footer .footer-grid li,.theme-reference .footer-bottom a{color:var(--footer-text)}
+.theme-reference .footer-bottom{background:var(--footer-bg);color:var(--footer-text)}
+.theme-reference .floating-contact{display:inline-flex;background:var(--action);color:var(--button-text);border-radius:min(var(--radius),8px);box-shadow:none}
+.theme-reference .corporate-section .editorial-split{align-items:start}
+.theme-reference .corporate-section .editorial-visual{position:static;align-self:start}
+.theme-reference .corporate-section .editorial-visual img{height:auto;max-height:520px;aspect-ratio:1.1;object-fit:cover}
+.theme-reference .corporate-section .editorial-split:has(>.editorial-copy:only-child){grid-template-columns:minmax(0,1fr)}
+.theme-reference .topbar,.theme-reference.juris-home .topbar{display:block;position:relative;inset:auto;height:auto;background:var(--topbar-bg,var(--background));color:var(--topbar-text,var(--ink))}
+.theme-reference .topbar a,.theme-reference.juris-home .topbar a{color:inherit}
+.theme-reference.juris-home .topbar+.site-header{top:0}
+.theme-reference .topbar-inner{height:auto;min-height:35px}
+
+/* Corporate colors and typography are deliberately not theme variables. */
+.theme-reference .brand.brand-signature,.theme-reference .brand.brand-image{background:#fff;padding:4px;gap:10px;border-radius:0;width:var(--logo-width);max-width:100%;min-width:0;color:#204a43;flex:0 0 var(--logo-width);text-shadow:none;filter:none;opacity:1}
+.theme-reference .brand-signature .brand-mark{width:38px;height:48px;flex:0 0 38px;padding:0;border:0;color:#204a43}
+.theme-reference .brand-signature .brand-mark img{display:block;width:38px;height:44px;object-fit:contain;filter:none}
+.theme-reference .brand-signature>span:last-child{min-width:0}
+.theme-reference .brand.brand-signature strong,.theme-reference .site-footer .brand.brand-signature strong{font:700 24px/1.15 Georgia,"Times New Roman",serif!important;color:#204a43!important;white-space:normal;overflow-wrap:anywhere;letter-spacing:0!important}
+.theme-reference .brand.brand-signature small{font:600 7px/1.6 Arial,Helvetica,sans-serif!important;color:#204a43!important;letter-spacing:0!important;opacity:1;text-transform:uppercase;margin-top:5px}
+.theme-reference .brand-image .brand-logo{display:block;width:100%;max-width:100%;height:50px;max-height:50px;object-fit:contain;object-position:left center;filter:none;opacity:1}
+.theme-reference .site-footer .brand{align-items:center;flex-direction:row}
+.theme-reference .hero-identity-mark{width:80px;height:88px}
+.theme-reference .hero-identity-mark img{max-width:80px;max-height:88px;filter:none}
+
+.theme-reference.header-inline .header-inner,.theme-reference.juris-home.header-inline .header-inner{gap:18px}
+.theme-reference .main-nav{min-width:0}
+.theme-reference.header-inline .main-nav>.nav-item>a,.theme-reference.juris-home.header-inline .main-nav>.nav-item>a{font-size:var(--nav-font-size);overflow-wrap:normal}
+.theme-reference .header-actions{gap:6px;flex:0 0 auto}
+.theme-reference .header-actions .header-payment,.theme-reference.juris-home .header-actions .header-payment{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:180px;padding:9px 12px;font-size:13px;font-weight:600;line-height:1.35;white-space:normal;background:var(--action);color:var(--button-text);border:1px solid var(--action);border-radius:min(var(--radius),8px);box-shadow:none;transform:none;filter:none}
+.theme-reference .header-payment .icon{width:17px;height:17px;flex:0 0 17px}
+.theme-reference .header-actions .header-payment:hover{box-shadow:none;transform:none;filter:none;text-decoration:underline;text-underline-offset:3px}
+.theme-reference .header-payment:focus-visible,.theme-reference .brand:focus-visible{outline:2px solid var(--action);outline-offset:4px}
+.theme-reference .mobile-menu-search{display:none}
+.theme-reference .header-contact{font-size:13px;max-width:150px;white-space:normal}
+.theme-reference .site-header.is-compact-nav .menu-toggle{display:grid}
+.theme-reference .site-header.is-compact-nav .main-nav{display:none;position:absolute;inset:100% 0 auto 0;padding:12px 20px 20px;max-height:calc(100svh - 100px);overflow-y:auto;background:var(--header-bg);color:var(--header-text);border:1px solid var(--line)}
+.theme-reference .site-header.is-compact-nav .main-nav.is-open{display:flex;flex-direction:column;align-items:stretch;gap:0}
+.theme-reference .site-header.is-compact-nav .main-nav>.nav-item>a{flex:1;font-size:16px;padding:14px 0;min-height:48px;white-space:normal}
+.theme-reference .site-header.is-compact-nav .nav-submenu{position:static;width:100%;border:0;box-shadow:none;background:var(--header-bg)}
+.theme-reference .site-header .main-nav.nav-measuring{display:flex!important;position:absolute!important;inset:auto!important;visibility:hidden!important;pointer-events:none!important;width:max-content!important;max-width:none!important;max-height:none!important;flex-direction:row!important;gap:20px!important;padding:0!important;border:0!important;overflow:visible!important}
+.theme-reference .main-nav.nav-measuring>.mobile-menu-search,.theme-reference .main-nav.nav-measuring>.mobile-menu-payment{display:none!important}
+.theme-reference .main-nav.nav-measuring>.nav-item>a{font-size:var(--nav-font-size)!important;white-space:nowrap!important}
+
+.page-transition-logo{position:fixed;inset:0;z-index:120;display:grid;place-items:center;visibility:hidden;opacity:0;background:#ffffffb3;pointer-events:none}
+.page-transition-logo img{width:80px;height:88px;padding:12px;box-sizing:content-box;background:#fff;object-fit:contain;border-radius:4px;filter:none}
+.page-entering main{animation:page-content-in 220ms ease-out both}
+.page-entering-signature .page-transition-logo{visibility:visible;animation:page-signature-out 320ms ease-out both}
+@keyframes page-content-in{from{opacity:.7}to{opacity:1}}
+@keyframes page-signature-out{0%{opacity:1}100%{opacity:0;visibility:hidden}}
+::view-transition-old(root){animation:page-old-out 180ms ease-out both}
+::view-transition-new(root){animation:page-content-in 220ms ease-out both}
+@keyframes page-old-out{to{opacity:0}}
+@supports(view-transition-name:none){.page-entering main{animation:none}}
+
+@media screen and (max-width:1200px){
+  .theme-reference .menu-toggle{display:grid}
+  .theme-reference .header-inner{position:relative}
+  .theme-reference .main-nav,.theme-reference.home-page .main-nav{display:none;position:absolute;inset:100% 0 auto 0;padding:12px 20px 20px;max-height:calc(100svh - 100px);overflow-y:auto;background:var(--header-bg);color:var(--header-text);border:1px solid var(--line);box-shadow:0 8px 16px #0000000d}
+  .theme-reference .main-nav.is-open{display:flex;flex-direction:column;align-items:stretch;gap:0}
+  .theme-reference .main-nav>.nav-item{display:flex;flex-wrap:wrap;min-width:0}
+  .theme-reference .main-nav>.nav-item>a,.theme-reference.juris-home .main-nav>.nav-item>a{flex:1;font-size:16px;padding:14px 0;min-height:48px;border-bottom:1px solid var(--line);white-space:normal}
+  .theme-reference .submenu-toggle{width:48px;min-height:48px}
+  .theme-reference .nav-submenu{position:static;flex-basis:100%;width:100%;border:0;box-shadow:none;padding:0 0 10px 16px;background:var(--header-bg);color:var(--header-text)}
+  .theme-reference .nav-submenu a{min-height:44px;padding:12px 0;font-size:14px}
+  .theme-reference .header-actions{margin-left:auto}
+  .theme-reference .header-contact{display:none}
+  .theme-reference .mobile-menu-payment{display:flex;align-items:center;gap:10px;padding:14px 0;min-height:48px;color:var(--header-text)}
+}
+@media screen and (max-width:700px){
+  .theme-reference{font-size:var(--body-font-size)}
+  .theme-reference .prose,.theme-reference .post-main .prose{font-size:var(--body-font-size)}
+  .theme-reference .section,.theme-reference.juris-home .juris-about,.theme-reference.juris-home .home-lawyer-section,.theme-reference .home-consultation,.theme-reference .home-map-section,.theme-reference.juris-home .juris-practices,.theme-reference.juris-home .articles-section,.theme-reference.juris-home .faq-section{padding-top:var(--mobile-section-spacing);padding-bottom:var(--mobile-section-spacing)}
+  .theme-reference .section-heading h2,.theme-reference.juris-home .juris-section-heading h2,.theme-reference.juris-home .home-lawyer-heading h2,.theme-reference .home-consultation-heading h2,.theme-reference.juris-home .juris-about h2,.theme-reference.juris-home .faq-grid h2,.theme-reference .home-map-heading h2{font-size:min(var(--section-heading-size),30px)}
+  .theme-reference.juris-home .juris-hero{min-height:min(var(--hero-height),var(--mobile-hero-height));background:var(--background)}
+  .theme-reference.juris-home .juris-hero h1{font-size:var(--mobile-hero-title-size)}
+  .theme-reference.juris-home .hero-identity-mark{width:52px;height:58px;margin-bottom:12px}
+  .theme-reference.juris-home .hero-identity-mark img{width:52px;height:58px}
+  .theme-reference .brand.brand-signature,.theme-reference .brand.brand-image{flex:1 1 auto;width:auto;min-width:0;gap:7px;padding:2px;min-height:44px}
+  .theme-reference .brand.brand-signature .brand-mark{width:26px;height:38px;flex:0 0 26px;padding:0}
+  .theme-reference .brand-signature .brand-mark img{width:26px;height:32px}
+  .theme-reference .brand.brand-signature strong{font-size:19px!important;line-height:1.15!important}
+  .theme-reference .brand.brand-signature small{font-size:7px!important;line-height:1.4!important;margin-top:3px}
+  .theme-reference .brand-image .brand-logo{height:44px;max-height:44px}
+  .theme-reference .header-actions{gap:4px;margin-left:0}
+  .theme-reference .header-actions .search-toggle{display:none}
+  .theme-reference .header-actions .header-payment,.theme-reference.juris-home .header-actions .header-payment{max-width:100px;padding:8px;gap:5px;font-size:12px;min-height:44px}
+  .theme-reference .header-payment .icon{width:16px;height:16px;flex-basis:16px}
+  .theme-reference .header-actions .menu-toggle{width:40px;min-width:40px;height:44px}
+  .theme-reference .main-nav,.theme-reference.home-page .main-nav{left:-20px;right:-20px;max-height:calc(100svh - 100px);border-width:1px 0 0}
+  .theme-reference .mobile-menu-search{display:flex;align-items:center;gap:10px;width:100%;padding:14px 0;min-height:48px;background:transparent;color:var(--header-text);border:0;border-bottom:1px solid var(--line);font-size:16px;text-align:left}
+  .theme-reference .topbar{display:block}
+  .theme-reference .topbar-inner{flex-wrap:wrap;gap:4px;padding:6px 0;font-size:12px}
+  .theme-reference.juris-home [data-home-section="office"],.theme-reference.juris-home [data-home-section="principles"],.theme-reference.juris-home [data-home-section="intro"],.theme-reference.juris-home [data-home-section="approach"]{display:block}
+  .theme-reference .juris-ribbon-inner,.theme-reference .juris-approach-inner{grid-template-columns:minmax(0,1fr);gap:24px}
+  .theme-reference .juris-values-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  .theme-reference .juris-value h2{font-size:20px}
+  .theme-reference.juris-home:has([data-home-section="home_map"]) [data-home-section="contact"]{display:grid;grid-template-columns:minmax(0,1fr)}
+  .theme-reference .home-lawyer-heading>p{display:block}
+  .theme-reference .home-lawyer-heading>.eyebrow{display:block}
+  .theme-reference[data-mobile-practice-text="1"] .juris-practices .service-body p,.theme-reference[data-mobile-practice-text="1"] .practice-directory .service-body p{display:block}
+  .theme-reference .site-footer .footer-grid{grid-template-columns:minmax(0,1fr)}
+  .theme-reference .site-footer .footer-grid>.footer-col,.theme-reference .site-footer .footer-about,.theme-reference .site-footer .footer-legal>p{display:block}
+  .theme-reference .footer-grid .brand.brand-signature strong{font-size:24px!important}
+  .theme-reference .site-footer .footer-grid h3,.theme-reference .site-footer .footer-grid a,.theme-reference .site-footer .footer-grid p,.theme-reference .site-footer .footer-grid li,.theme-reference .footer-bottom a{color:var(--footer-text)}
+  .theme-reference .floating-contact{display:none}
+}
+@media screen and (max-width:360px){
+  .theme-reference .brand.brand-signature strong{font-size:16px!important}
+  .theme-reference .brand.brand-signature small{font-size:6px!important}
+  .theme-reference .header-actions .header-payment,.theme-reference.juris-home .header-actions .header-payment{max-width:88px;padding:7px 6px;font-size:12px}
+  .theme-reference .header-payment .icon{display:none}
+  .theme-reference .main-nav,.theme-reference.home-page .main-nav{left:-16px;right:-16px}
+}
+@media(prefers-reduced-motion:reduce){
+  .page-transition-logo{display:none}
+  .page-entering main,::view-transition-old(root),::view-transition-new(root){animation:none}
+}
+@media print{.page-transition-logo,.header-payment,.mobile-menu-search,.floating-contact{display:none!important}}
+.theme-reference.juris-home .juris-hero h1{font-weight:700;letter-spacing:-.035em;line-height:1.08;text-wrap:balance}
+.theme-reference.juris-home .juris-hero-lead p{font-size:20px;line-height:1.6}
+.theme-reference.juris-home .hero-identity-mark{width:104px;height:104px;margin-bottom:18px}
+.theme-reference.juris-home .hero-identity-mark img{width:104px;height:104px;max-width:104px;max-height:104px;object-fit:contain}
+@media(max-width:700px){
+  .theme-reference.juris-home .juris-hero h1{line-height:1.13}
+  .theme-reference.juris-home .juris-hero-lead p{font-size:16px}
+  .theme-reference.juris-home .hero-identity-mark,.theme-reference.juris-home .hero-identity-mark img{width:72px;height:72px;max-width:72px;max-height:72px}
+}

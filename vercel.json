@@ -9,9 +9,27 @@
     }
   },
   "routes": [
-    { "src": "/assets/[a-zA-Z0-9_-]+\\.(?:css|js)", "headers": { "X-Content-Type-Options": "nosniff" }, "continue": true },
-    { "src": "/assets/([a-zA-Z0-9_-]+\\.(?:css|js))", "dest": "/assets/$1" },
-    { "src": "/assets/(images/(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_-]+\\.(?:jpg|jpeg|png|webp|svg)|fonts/[a-zA-Z0-9_-]+\\.(?:ttf|woff2))", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
-  ]
+    {
+      "src": "/assets/[a-zA-Z0-9_-]+\\.(?:css|js)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff"
+      },
+      "continue": true
+    },
+    {
+      "src": "/assets/([a-zA-Z0-9_-]+\\.(?:css|js))",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/assets/(images/(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_-]+\\.(?:jpg|jpeg|png|webp|svg)|fonts/[a-zA-Z0-9_-]+\\.(?:ttf|woff2))",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+  "git": {
+    "deploymentEnabled": false
+  }
 }
